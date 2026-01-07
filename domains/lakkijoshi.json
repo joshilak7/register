@@ -1,11 +1,19 @@
 {
   "description": "Personal portfolio website",
-  "repo": "https://github.com/joshilak7/portfolio-frontend",
+  "repo": "",
   "owner": {
     "username": "joshilak7",
     "email": "luckyjoshi659@gmail.com"
   },
-  "record": {
-    "CNAME": "cname.vercel-dns.com"
-  }
+  "target": {
+    "CNAME" : {
+    "name":"lakkijoshi"
+    "value":"lakkijoshi.vercel.app"
+  },
+  "TXT": {
+    "name": "_vercel",
+    "value": "vc-domain-verify=princevora.is-a-good.dev,780280205ae91edb3d72"
+    }
+},
+  "proxied": false
 }
